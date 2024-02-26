@@ -1,0 +1,4 @@
+*.dll
+*.props
+*.csproj
+*.cache
