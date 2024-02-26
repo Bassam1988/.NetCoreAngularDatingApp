@@ -1,0 +1,73 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\bassam.suliman\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
+      "projectName": "API",
+      "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\bassam.suliman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\bassam.suliman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\bassam.suliman\\Downloads\\packages\\packages\\forest-interactive.lib.1.4.1": {},
+        "\\\\192.168.28.3\\Forest Cluster\\Forest-lib": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
