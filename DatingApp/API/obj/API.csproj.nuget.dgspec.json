@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\bassam.suliman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bassam.suliman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
