@@ -1,4 +1,1 @@
-*.dll
-*.props
-*.csproj
-*.cache
+DatingApp/API/appsettings.json
