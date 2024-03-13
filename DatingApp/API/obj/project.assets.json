@@ -2531,11 +2531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
+      "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\bassam.suliman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\API\\obj\\",
+      "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bassam.suliman\\AppData\\Roaming\\NuGet\\NuGet.Config",

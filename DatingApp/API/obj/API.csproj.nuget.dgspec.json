@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\API.csproj": {}
+    "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\API.csproj": {
+    "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\API.csproj",
+        "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\API.csproj",
         "packagesPath": "C:\\Users\\bassam.suliman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\Build an app with ASPNET Core and Angular from scratch\\DatingApp\\.NetCoreAngularDatingApp\\DatingApp\\api\\obj\\",
+        "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bassam.suliman\\AppData\\Roaming\\NuGet\\NuGet.Config",
