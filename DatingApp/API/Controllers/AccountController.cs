@@ -11,14 +11,18 @@ public class AccountController : BaseApiController
 {
 
     private readonly DataContext _context;
+    private readonly IHelperClass _helperClass;
+    private readonly ITokenService _tokenService;
 
-    public AccountController(DataContext context)
+    public AccountController(DataContext context, IHelperClass helperClass, ITokenService tokenService)
     {
         _context = context;
+        _helperClass = helperClass;
+        _tokenService = tokenService;
     }
 
     [HttpPost("register")]
-    public async Task<ActionResult<AppUser>> Register(RegisterDTO registerDto)
+    public async Task<ActionResult<UserDto>> Register(RegisterDTO registerDto)
     {
         if (await UserExists(registerDto.Username))
         {
@@ -35,7 +39,32 @@ public class AccountController : BaseApiController
 
         _context.Users.Add(user);
         await _context.SaveChangesAsync();
-        return user;
+        return new UserDto
+        {
+            Username = user.UserName,
+            Token = _tokenService.CreateToken(user)
+        };
+    }
+
+    [HttpPost("login")]
+    public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
+    {
+        var user = await _context.Users.SingleOrDefaultAsync(x => x.UserName == loginDto.Username);
+
+        if (user == null)
+        {
+            return Unauthorized();
+        }
+        var checkPassword = _helperClass.ComaprePassword(loginDto.Password, user.PasswordSalt, user.PasswordHash);
+        if (!checkPassword)
+        {
+            return Unauthorized("Invalid password");
+        }
+        return new UserDto
+        {
+            Username = user.UserName,
+            Token = _tokenService.CreateToken(user)
+        };
     }
 
     private async Task<bool> UserExists(string username)

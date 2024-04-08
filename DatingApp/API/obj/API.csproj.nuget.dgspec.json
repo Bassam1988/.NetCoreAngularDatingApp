@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\API.csproj": {}
+    "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\API.csproj": {
+    "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\API.csproj",
+        "projectPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\bassam.suliman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\Api\\obj\\",
+        "outputPath": "C:\\Users\\bassam.suliman\\Desktop\\courses\\BuildanAppWithASPNETCoreAngular\\DatingApp\\DotNetCoreAngularDatingApp\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bassam.suliman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,6 +42,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -51,6 +55,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.0, )"
             }
           },
           "imports": [
