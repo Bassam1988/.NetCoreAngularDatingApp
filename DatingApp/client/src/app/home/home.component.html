@@ -10,7 +10,7 @@
 
     <div *ngIf="registerMode" class="container">
         <div class="row justufy-content-center">
-            <app-register></app-register>
+            <app-register (cancelRegister)="cancelRegisterMode($event)"></app-register>
         </div>
     </div>
 </div>
