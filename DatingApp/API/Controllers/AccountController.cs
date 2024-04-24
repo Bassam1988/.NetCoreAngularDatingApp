@@ -53,7 +53,7 @@ public class AccountController : BaseApiController
 
         if (user == null)
         {
-            return Unauthorized();
+            return Unauthorized("Invalid username");
         }
         var checkPassword = _helperClass.ComaprePassword(loginDto.Password, user.PasswordSalt, user.PasswordHash);
         if (!checkPassword)
